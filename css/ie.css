@@ -1,9 +1,3 @@
-/* 
-Title:		IE patches
-Author: 	dan@simplebits.com
-*/
-
-/* nav fix */
 
 *:first-child+html #nav li {
 	width: 24.9%;
