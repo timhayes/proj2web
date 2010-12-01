@@ -3,20 +3,13 @@ body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
 	color: #51463d;
 	font-size: 62.5%;
-	}
-	
-/* links */
-
+	}	
 a:link, a:visited {
 	font-weight: bold;
 	text-decoration: none;
 	outline: none;
 	color: #3792b3;
 	}
-
-/* page structure 
---------------------------------------------- */
-
 #header {
 	padding-left: 20px;
 	padding-bottom: 0;
@@ -31,8 +24,7 @@ a:link, a:visited {
 	margin-bottom: 0px;
 	margin-right: auto;
 	margin-top: 0px;
-	}
-
+}
 #wrap_top {
 	right: 10%;
 	left: 10%;
@@ -48,24 +40,7 @@ a:link, a:visited {
 	max-width: 1000px;
 	min-width: 700px;
 	font-size: 1.3em;
-	}
-	
-#carousel {
-    	text-align: left;
-    	padding: 20px;
-    	max-width: 1000px;
-    	min-width: 700px;
-    	width: 90%;
-    	background-color: #64bdff;
-    	height: 250px;
-    	float: left;
-    }
-
-#logo {
-    	width: 20%;
-    	float: left;
-    }
-
+}	
 #wrap {
 	right: 10%;
 	left: 10%;
@@ -85,30 +60,6 @@ a:link, a:visited {
 	min-width: 700px;
 	font-size: 1.3em;
 	}
-	
-#middle-background {
-	background-color: #008f4d;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	height: 1200px;
-	display: block;
-	color: white;
-		padding-left: 0px;
-		padding-bottom: 0px;
-		padding-right: 0px;
-		padding-top: 0px;
-	}
-	
-#footer {
-	height: 2000px;
-	background-color: #206192;
-	clear: both;
-	margin: 0 auto;
-	padding: 10px 0 30px 0;
-	font-size: 1em;
-	color: #9c836e;
-	}
-
 #wrap_projects {
 	right: 10%;
 	left: 10%;
@@ -128,8 +79,7 @@ a:link, a:visited {
 	max-width: 1000px;
 	min-width: 700px;
 	font-size: 1.3em;
-	}
-
+}
 #wrap_resume {
 	background-color: white;
 	color: #040404;
@@ -150,8 +100,47 @@ a:link, a:visited {
 	max-width: 1000px;
 	min-width: 700px;
 	font-size: 1.3em;
-	}
+}
+#carousel {
+    	text-align: left;
+    	padding: 20px;
+    	max-width: 1000px;
+    	min-width: 700px;
+    	width: 90%;
+    	background-color: #64bdff;
+    	height: 250px;
+    	float: left;
+}
+#logo {
+    	width: 20%;
+    	float: left;
+    }
 	
+#middle-background {
+	background-color: #008f4d;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 1200px;
+	display: block;
+	color: white;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-top: 0px;
+}
+	#footer {
+	height: 2000px;
+	background-color: #206192;
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0 30px 0;
+	font-size: 1em;
+	color: #9c836e;
+}
+#footer a {
+	color: #51463d;
+}
+
 #tag {
     	padding-top: 30px;
     	text-align: center;
@@ -183,15 +172,6 @@ a:link, a:visited {
 	float: left;
 	width: 25%;
 	}
-	
-
-	
-/* header 
---------------------------------------------- */
-
-
-/* navigation */
-	
 #nav {
 	width: 75%;
 	margin-left: auto;
@@ -240,12 +220,6 @@ a:link, a:visited {
 	letter-spacing: 0;
 	color: #b2a18f;
 	}
-
-/* main styles 
---------------------------------------------- */
-
-/* headings */
-
 .item_project {
     	border-top-style: groove;
     	border-top-width: 2px;
@@ -410,8 +384,6 @@ p.date {
 	font-weight: normal;
 	font-size: 1em;
 	}
-	
-	
 .duty li {
 	padding-right: 6px;
 	padding-left: 6px;
@@ -433,9 +405,6 @@ p.date {
 	margin: 12px 0 2px 0;
 	position: relative;	
 	}	
-
-/* menu list */
-
 	
 ul.lst li a {
 	text-align: center;
@@ -458,8 +427,6 @@ ul.lst li em {
 	font-style: normal;
 	font-weight: normal;
 	color: #9c836e;
-	
-
 ul.press li {
 	margin: 1em 0;
 	padding: 0 0 1em 0;
@@ -469,37 +436,9 @@ ul.press li.last {
 	padding-bottom: 0;
 	border-bottom: none;
 	}
-ul.press li blockquote {
-	font-family: Georgia;
-	font-size: 1.2em;
-	font-style: italic;
-	line-height 1.5em;
-	}
-ul.press li blockquote p {
-	margin: 0 0 1em 0;
-	}
-ul.press li blockquote p.author {
-	margin: 0;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
-	font-size: .8em;
-	font-style: normal;
-	text-align: right;
-	color: #9c836e;
-	}
 ul.press li blockquote p.author a {
 	font-weight: bold;
 	}
-
-/* footer 
---------------------------------------------- */
-
-#footer a {
-	color: #51463d;
-	}
-
-
-
 #main_projects {
     	background-color: #ffc86c;
-    }
-
+}
