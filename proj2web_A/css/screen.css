@@ -159,18 +159,22 @@ ul#navigation li a {
 ul#navigation li a:visited {
 }
 
-ul#navigation li a:hover,
 body.portfolio a#nav-portfolio,
 body.home a#nav-home,
 body.resume a#nav-resume,
 
-
 ul#navigation li a:focus {
+	background-color: white;
 	color: #050505;
 	text-align: center;
-	background-color: white;
 }
 
+ul#navigation li a:hover,
+ul#navigation li a:focus {
+	background-color: 10334d;
+	color: #050505;
+	text-align: center;
+}
 
 /*Content Typography: Headings*/
 div#content h2 {
