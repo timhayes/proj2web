@@ -160,6 +160,11 @@ ul#navigation li a:visited {
 }
 
 ul#navigation li a:hover,
+body.portfolio a#nav-portfolio,
+body.home a#nav-home,
+body.resume a#nav-resume,
+
+
 ul#navigation li a:focus {
 	color: #050505;
 	text-align: center;
