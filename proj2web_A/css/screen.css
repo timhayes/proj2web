@@ -174,10 +174,10 @@ ul#navigation li a {
 ul#navigation li a:visited {
 }
 
-
 body.portfolio a#nav-portfolio,
 body.home a#nav-home,
 body.resume a#nav-resume,
+
 
 ul#navigation li a:focus {
 	background-color: #fffeb4;
@@ -235,7 +235,6 @@ ul#port_navigation li a {
 
 ul#port_navigation li a:visited {
 }
-
 
 body.print a#nav-print,
 body.web a#nav-web,
