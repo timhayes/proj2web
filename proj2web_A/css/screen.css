@@ -132,9 +132,9 @@ div#footer ul.validators li {
 
 /*Navigation*/
 ul#navigation {
-		left: 140px;
+		left: 650px;
 		width: 500px;
-		top: 370px;
+		top: 0px;
 		text-align: center;
 		position: absolute;
 		margin-left: auto;
@@ -191,6 +191,69 @@ ul#navigation li a:focus {
 	color: #050505;
 	text-align: center;
 }
+
+/*Portfolio Navigation*/
+ul#port_navigation {
+		left: 140px;
+		width: 500px;
+		top: 370px;
+		text-align: center;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		list-style: none;
+}
+
+ul#port_navigation li {
+	height: 30px;
+	text-align: center;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	float: left;
+	width: 28%;
+}
+
+ul#port_navigation li a {
+	border-right-width: 1px;
+	border-right-style: ridge;
+	padding: 7px;
+	background-color: #10334d;
+	height: 16px;
+	text-align: center;
+	display: block;
+	float: left;
+	width: 125px;
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ffff24;
+}
+
+ul#port_navigation li a:visited {
+}
+
+
+body.print a#nav-print,
+body.web a#nav-web,
+body.academic a#nav-academic,
+
+ul#port_navigation li a:focus {
+	background-color: #fffeb4;
+	color: #050505;
+	text-align: center;
+}
+
+ul#port_navigation li a:hover,
+ul#port_navigation li a:focus {
+	background-color: 10334d;
+	color: #050505;
+	text-align: center;
+}
+
 
 /*Content Typography: Headings*/
 div#content h2 {
