@@ -95,6 +95,10 @@ div#content {
 	max-width: 1000px;
 	min-width: 700px;
 	font-size: 1.3em;
+		-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;'
+	-moz-border-radius-topright: 10px;
 	}
 
 div#main {
@@ -140,6 +144,7 @@ ul#navigation {
 		margin-left: auto;
 		margin-right: auto;
 		list-style: none;
+		
 }
 
 ul#navigation li {
@@ -150,11 +155,15 @@ ul#navigation li {
 	margin-right: 0;
 	float: left;
 	width: 28%;
+
+}
+
+.box { padding 10px;
+			-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
 }
 
 ul#navigation li a {
-	border-right-width: 1px;
-	border-right-style: ridge;
 	padding: 7px;
 	background-color: #10334d;
 	height: 16px;
@@ -169,6 +178,10 @@ ul#navigation li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #ffff24;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;'
+	-moz-border-radius-bottomright: 10px;
 }
 
 ul#navigation li a:visited {
@@ -215,8 +228,6 @@ ul#port_navigation li {
 }
 
 ul#port_navigation li a {
-	border-right-width: 1px;
-	border-right-style: ridge;
 	padding: 7px;
 	background-color: #10334d;
 	height: 16px;
@@ -231,6 +242,10 @@ ul#port_navigation li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #ffff24;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;'
+	-moz-border-radius-topright: 10px;
 }
 
 ul#port_navigation li a:visited {
@@ -307,7 +322,7 @@ div#content a:focus {
 .item_project {
     	border-top-style: groove;
     	border-top-width: 2px;
-    	background-color: white;
+    	background-color: #fff8dc;
     	margin-bottom: 5px;
     	padding-left: 10px;
     	padding-bottom: 10px;
