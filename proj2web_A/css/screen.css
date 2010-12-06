@@ -41,7 +41,7 @@ div#page {
 #header {
 	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
 	color: white;
-	height: 400px;
+	height: 450px;
 	background: url(../media/img/wrapper_blue.png) repeat-x 0 0;
 
 }
@@ -54,19 +54,15 @@ div#page {
 
 }
 #carousel {
-	color: #030303;
-	padding: 20px;
-	right: 10%;
+	position: absolute;
+right: 10%;
 	left: 10%;
-	height: 200px;
+	height: 300px;
+	width: 800px;
 	margin-left: auto;
 	margin-bottom: 0;
 	margin-right: auto;
-	margin-top: 0px;
-	width: 90%;
-	max-width: 1000px;
-	min-width: 700px;
-	font-size: 1.3em;
+	top: 120px;
 	
 }
 
@@ -98,7 +94,7 @@ div#content {
 	margin-left: auto;
 	margin-bottom: 0;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 50px;
 	width: 90%;
 	max-width: 1000px;
 	min-width: 700px;
@@ -107,6 +103,9 @@ div#content {
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-radius-topleft: 10px;'
 	-moz-border-radius-topright: 10px;
+	-moz-box-shadow: 7px 7px 7px gray;
+    -webkit-box-shadow: 7px 7px 7px gray;
+
 	}
 div#port_content {
 	background-color: #fffeb4;
@@ -129,6 +128,9 @@ div#port_content {
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-radius-topleft: 10px;'
 	-moz-border-radius-topright: 10px;
+	-moz-box-shadow: 7px 7px 7px gray;
+    -webkit-box-shadow: 7px 7px 7px gray;
+
 	}
 div#main {
 }
@@ -188,7 +190,7 @@ ul#navigation li {
 }
 
 .box { padding 10px;
-			-webkit-border-radius: 20px;
+		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 }
 
@@ -239,7 +241,7 @@ ul#navigation li a:focus {
 ul#port_navigation {
 		left: 140px;
 		width: 500px;
-		top: 100px;
+		top: 150px;
 		text-align: center;
 		position: absolute;
 		margin-left: auto;
@@ -300,16 +302,40 @@ ul#port_navigation li a:focus {
 
 
 /*Content Typography: Headings*/
+
+div#port_content h2 {
+font-size: 1.8em;
+margin-bottom: 9px;
+}
+div#port_content p {
+font-size: 1em;
+margin-bottom: 9px;
+}
+
+div#port_content ul li {
+font-size: 1em;
+margin-top: 9px;
+margin-bottom: 9px;
+}
+
 div#content h2 {
+font-size: 1.8em;
+margin-bottom: 9px;
 }
 div#content h3 {
+font-size: 1.4em;
+margin-top: 16px;
+margin-bottom: 9px;
+color: red;
+
 }
-h3 { margin-top: 12px;
-}
+
 div#content h4 {
+font-size: 1em;
+margin-top: 12px;
+margin-bottom: 9px;
 }
-h4 { margin-top: 12px;
-}
+
 div#content h5 {
 }
 div#content h6 {
@@ -350,14 +376,16 @@ div#content a:hover,
 div#content a:focus {
 }
 .item_project {
-    	background-color: white;
+    	background: #dfdfb2 url(../media/img/item_project_bkg.png) repeat-x top left;
     	margin-bottom: 5px;
     	padding-left: 10px;
     	padding-bottom: 10px;
     	padding-right: 10px;
     	padding-top: 10px;
     	margin-top: 5px;
-    	float: right;
+    	border-bottom: 1px solid #fff;
+    	border-right: 1px solid #fff;
+    	float: right;	
     	-webkit-border-top-left-radius: 10px;
 		-webkit-border-top-right-radius: 10px;
 		-moz-border-radius-topleft: 10px;'
@@ -401,3 +429,10 @@ p.date {
 	font-size: 1.2 em;
 	color: #51463d;
 	}
+#logo {
+		position: absolute;
+		right: 10%;
+		left: 10%;
+		left: 100px;
+		top: 20px;
+			}
