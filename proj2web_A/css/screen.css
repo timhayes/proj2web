@@ -83,7 +83,7 @@ div#header ul.accessibility {
 
 /* Content */
 div#content {
-	background-color: #fffeb4;
+	background-color: #fcfbc6;
 	right: 10%;
 	left: 10%;
 	height: auto;
@@ -108,7 +108,7 @@ div#content {
 
 	}
 div#port_content {
-	background-color: #fffeb4;
+	background-color: #fcfbc6;
 	right: 10%;
 	left: 10%;
 	height: auto;
@@ -225,7 +225,7 @@ body.resume a#nav-resume,
 
 
 ul#navigation li a:focus {
-	background-color: #fffeb4;
+	background-color: #fcfbc6;
 	color: #050505;
 	text-align: center;
 }
@@ -288,7 +288,7 @@ body.web a#nav-web,
 body.academic a#nav-academic,
 
 ul#port_navigation li a:focus {
-	background-color: #fffeb4;
+	background-color: #fcfbc6;
 	color: #050505;
 	text-align: center;
 }
