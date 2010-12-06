@@ -6,6 +6,8 @@
 	<title>Timothy Hayes</title>
 	<link rel="stylesheet" type="text/css" media="screen, print" href="/css/reset.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="highslide.css" />
+
 	<!--[if lte IE 7>	
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/screen-ie.css" />
 	<![endif]-->
@@ -15,13 +17,15 @@
 	<link rel="image_src" href="http://example.com/media/share/thumbnail.jpg" />
 	<link rel="icon" href="http://example.com/media/share/favicon.png" type="image/png" />
 	<link rel="shortcut icon" href="http://example.com/media/share/favicon.png" type="image/png" />
-	<script type="text/javascript" src="/js/mootools/mootools-core.js"></script>
-	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
-	<script type="text/javascript" src="/js/site.js"></script>
-	<script type="text/javascript" src="/js/swfobject/swfobject.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easySlider1.5.js"></script>
 	<script type="text/javascript">
-	/*Page-specific JavaScript for SWFObject 2*/
-	</script>
+		$(document).ready(function(){	
+			$("#slider").easySlider();
+		});	
+		</script>
+		
+
 </head>
 
 <body class="home">
@@ -30,9 +34,28 @@
 	<div id="header">
 	
 <div id="carousel">
-	<img src="media/img/showcase/Product1.png" alt="Product1" width="800" height="300" />
-</div>
+	<div id="slider">
+		<ul>				
+			<li><a href="/"><img src="media/img/showcase/Product1.png" alt="Product1" /></a></li>
+			<li><a href="/"><img src="media/img/showcase/Product2.png" alt="Product1" /></a></li>
+			<li><a href="/"><img src="media/img/showcase/Product3.png" alt="Product1" /></a></li>
+		</ul>
+		
+	</div>
 	
+	<span id="prevBtn"><a href="javascript:void(0);" style="display: block;">Previous</a>
+	
+	
+	</span>
+	
+	<span id="nextBtn"><a href="javascript:void(0);"style="display: block;">Next</a>
+	</span>
+	
+	
+</div>
+
+
+
 	<div id="logo">
 	<img src="media/img/logo.png" alt="logo" width="275" height="50" />
 

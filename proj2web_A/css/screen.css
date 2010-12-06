@@ -436,3 +436,44 @@ p.date {
 		left: 100px;
 		top: 20px;
 			}
+			
+
+#slider{}	
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider li{ 
+	width:800px;
+	height:300px;
+	overflow:hidden; 
+	}	
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:100px;
+	}	
+#nextBtn{ 
+	left:800px;
+	}														
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:30px;
+	height:77px;
+	background:url(../media/img/btn_prev.gif) no-repeat 0 0;	
+	}	
+#nextBtn a{ 
+	background:url(../media/img/btn_next.gif) no-repeat 0 0;	
+	}
+
+.graphic, #prevBtn, #nextBtn{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
