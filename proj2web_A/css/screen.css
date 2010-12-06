@@ -464,10 +464,10 @@ p.date {
 	display:block;
 	width:30px;
 	height:77px;
-	background:url(../media/img/btn_prev.gif) no-repeat 0 0;	
+	background:url(../media/img/previous2.png) no-repeat 0 0;	
 	}	
 #nextBtn a{ 
-	background:url(../media/img/btn_next.gif) no-repeat 0 0;	
+	background:url(../media/img/next2.png) no-repeat 0 0;	
 	}
 
 .graphic, #prevBtn, #nextBtn{
